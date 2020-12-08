@@ -1,0 +1,35 @@
+span { 
+    color: yellow;
+}
+
+#header {
+    background-color: teal;
+}
+
+.digit {
+    font-size: xx-large;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.digit {
+    margin-left: 20px;
+}
+.header-buttons > * {
+    display: inline;
+}
+
+.header-buttons > a {
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+    padding-left: 20px;
+    margin-left: 60px;
+}
+
+#footer > * {
+   text-align: center;
+   border: 3px solid green;
+}
