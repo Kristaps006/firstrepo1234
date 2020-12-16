@@ -19,6 +19,7 @@ body {
 }
 .header-buttons > * {
     display: inline;
+    position: relative;
 }
 
 .header-buttons > a {
@@ -29,7 +30,32 @@ body {
     margin-left: 60px;
 }
 
-#footer > * {
+#footer * {
    text-align: center;
    border: 3px solid green;
 }
+.test {
+    background-color: blue;
+    width: 400px;
+    margin: 0 auto; 
+    
+}
+.bird1, .bird2 {
+    background-color: coral;
+    display: inline-block;
+    width: 200px;
+    height:300px;
+    border: 1px solid #466995;
+    float:left;
+
+}
+
+ .container{
+     background-color: darkblue;
+     clear: both;
+ }
+ .child {
+    display: inline-flex;
+    width: 150px;
+    height: auto;
+  }
